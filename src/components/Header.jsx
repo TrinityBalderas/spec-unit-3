@@ -1,15 +1,22 @@
-import React from "react";
+import { Link } from 'react-router-dom'
+import React from 'react'
 
 const Header = () => {
-  return (
-    <header>
-      <h2>Devmountain Eatery</h2>
-      <nav>
-          <button>Home</button>
-          <button>Add Recipe</button>
-      </nav>
-    </header>
-  );
-};
+	return (
+		<header className="main-header">
+			<h2 className="header-title">
+				<Link to="/">Devmountain Eatery</Link>
+			</h2>
+			<nav>
+				<button>
+					<Link to="/">Home</Link>
+				</button>
+				<button>
+					<Link to="newRecipe">Add Recipe</Link>
+				</button>
+			</nav>
+		</header>
+	)
+}
 
-export default Header;
+export default Header

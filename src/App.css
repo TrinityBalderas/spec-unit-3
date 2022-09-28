@@ -20,4 +20,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* --------- Begin your CSS Below here --------- */
+header{
+	width: vw;
+	height: 60px;
+	background-color: orange;
+}
+header button{
+background-color: rgb(245, 185, 72);
+}
