@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-import ImgDetail from "./ImgDetail";
+import ImgDetail from "./detailImg";
 
 const DetailScreen = () => {
   const { id } = useParams();
